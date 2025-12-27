@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../ExclusivaAutos.Application/ExclusivaAutos.Application.csproj" />
+  <Project Path="../ExclusivaAutos.Domain/ExclusivaAutos.Domain.csproj" />
+  <Project Path="../ExclusivaAutos.Infrastructure/ExclusivaAutos.Infrastructure.csproj" />
+  <Project Path="ExclusivaAutos.CrmAPI.csproj" />
+</Solution>
