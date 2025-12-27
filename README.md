@@ -21,14 +21,14 @@ Implementación basada en **Clean Architecture (por capas)**:
 
 | Capa | Responsabilidad | Proyecto |
 |------|------------------|----------|
-| **Presentation** | Exposición de endpoints, documentación (Swagger), configuración inicial | `ExclusivaAutos.CrmApi` |
-| **Application** | Lógica de negocio, orquestación de servicios | `ExclusivaAutos.Application` |
-| **Domain** | Modelos de negocio y contratos (interfaces) — **independiente** | `ExclusivaAutos.Domain` |
-| **Infrastructure** | Implementaciones técnicas: HTTP, OAuth, persistencia | `ExclusivaAutos.Infrastructure` |
+| **Presentación/Presentation** | Exposición de endpoints, documentación (Swagger), configuración inicial | `ExclusivaAutos.CrmApi` |
+| **Applicación/Application** | Lógica de negocio, orquestación de servicios | `ExclusivaAutos.Application` |
+| **Dominio/Domain** | Modelos de negocio y contratos (interfaces) — **independiente** | `ExclusivaAutos.Domain` |
+| **Infraestructura/Infrastructure** | Implementaciones técnicas: HTTP, OAuth, persistencia | `ExclusivaAutos.Infrastructure` |
 
 ```mermaid
 graph LR
-  A[Presentation] --> B[Application]
-  B --> C[Domain]
-  B -.-> D[Infrastructure]
+  A[Presentación/Presentacion] --> B[Applicación/Application]
+  B --> C[Dominio/Domain]
+  B -.-> D[Infraestructura/Infrastructure]
   D --> C
