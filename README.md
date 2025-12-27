@@ -9,7 +9,7 @@
 
 ## 🎯 Objetivo
 
-Desarrollar una API REST en **.NET 8** que consuma un servicio externo expuesto por **Power Automate**, integrando seguridad OAuth 2.0, manejo robusto de errores y arquitectura mantenible.
+Desarrollar una API REST en **.NET 10** que consuma un servicio externo expuesto por **Power Automate**, integrando seguridad OAuth 2.0, manejo robusto de errores y arquitectura mantenible.
 
 > ✅ Solución lista para producción, cumpliendo 100% con los requerimientos técnicos de la prueba.
 
