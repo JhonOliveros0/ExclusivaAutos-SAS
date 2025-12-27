@@ -1,7 +1,7 @@
 # 🚗 ExclusivaAutos CRM API  
 **Solución técnica para integración con Power Automate — Analista Senior de CRM**
 
-[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=.net)](https://dotnet.microsoft.com)
+[![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=.net)](https://dotnet.microsoft.com)
 [![Clean Architecture](https://img.shields.io/badge/Arquitectura-Clean_Architecture-0078D4)](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture)
 [![Swagger](https://img.shields.io/badge/API-Docs-Swagger-85EA2D?logo=swagger)](https://swagger.io)
 
